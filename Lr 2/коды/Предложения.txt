@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <title>Музыка – это воздух</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+ </head>
+  <body background="images/фон.jpg">
+    <div id="container">
+     <div id="header">
+      <h2>Предложения</h2>
+	 </div>
+<!--меню сайта-->
+       <div id="mainmenu">
+        <ul>
+<!-- Описание ссылок в меню и сами ссылки. -->
+         <li><a href="index.html">Главное меню </a></li>
+		 <li><a href="History.html">История музыки </a></li>
+         <li><a href="Rules.html">Правила </a></li>
+		 <li><a href="Жалобы.html">Жалобы </a></li>
+		  <li><a href="music.html">Выбрать музыку </a></li>
+		 </ul>
+       </div>
+<!--Конец меню сайта-->
+<!-- Область Контента -->
+<div id="content">
+<h3>Страничка будет недоступна ещё N дней, где N->∞</h3>
+<img src="images/разраб.png" width="50%">
+</div>
+<!--конец области контента-->
+<!--Подвал сайта-->
+<div id="footer">
+<h3>Связь с автором</h3>
+Виктория Клочкова <br>
+Номер телефона: <u> +79787083304 </u> <br>
+Почта mail.ru: <u> viki-iki@mail.ru </u>
+</div>
+</div>
+</body>
+</html>
