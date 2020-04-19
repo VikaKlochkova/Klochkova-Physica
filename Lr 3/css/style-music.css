@@ -1,0 +1,69 @@
+
+/* вся таблица*/
+#container {
+margin: 1px; /*величину отступа от каждого края элемента*/
+text-align: center; /*выравнивание текста*/
+width: 100%;  /*ширина*/
+}
+/* заглавие*/
+#header {
+font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+font-style: italic; /* Курсивное начертание */
+color: #FFFFFF;
+margin: 10px; /*отступ*/
+width: 100%; /* ширина*/
+height: 10px; /*высота*/
+}
+
+/* ссылка */
+#ssilka a:link{
+	color:  #FFFFFF; /* Цвет ссылки */
+}
+#ssilka a:visited{
+	color:  #FFFFFF; /* Цвет посещённой ссылки */
+}
+#ssilka a:active{
+	color:  #FF0000; /* Цвет при нажатии на ссылку */
+}
+
+#вкладки{
+	margin: 75px; /*отступ*/
+}
+
+/*основание*/
+#content {
+color: #FFFFFF;
+position: relative; /*позиционирования элемента относительно окна браузера*/
+text-align: center; /*выравнивание текста*/
+width: 95%; /*ширина*/
+margin: 75px; /*величину отступа от каждого края элемента*/
+font-family: Arial, sans-serif; /*семейство шрифта*/
+font-size: 15px; /*размер шрифта элемента*/
+padding-left: 10%; /* Поле слева */
+padding-right: 10%; /* Поле слева */
+}
+
+/*табличка*/
+#table {
+padding-top: 1%; /* Поле сверху */
+padding-left: 10%; /* Поле слева */
+padding-right: 5%; /* Поле справа */
+margin: 85px; /*величину отступа от каждого края элемента*/
+color: #FFFFFF;
+height: 50px; /*высота*/
+position: relative; /*позиционирования элемента относительно окна браузера*/
+overflow: visible; /*Отображается только область внутри элемента, остальное будет скрыто.*/
+} 
+
+/*подвал*/ 
+#footer {
+text-align: center; /*выравнивание текста*/
+margin: 40px; /*величину отступа от каждого края элемента*/
+padding-top: 19%; /* Поле сверху */
+padding-left: 10%; /* Поле слева */
+padding-right: 10%; /* Поле справа */
+color: #FFFFFF;
+line-height: 100%;
+}
+
+

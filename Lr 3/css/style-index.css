@@ -1,0 +1,51 @@
+
+/* вся таблица*/
+#container {
+margin: 1px; /*величину отступа от каждого края элемента*/
+text-align: center; /*выравнивание текста*/
+width: 100%;  /*ширина*/
+}
+/* заглавие*/
+#header {
+font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+font-style: italic; /* Курсивное начертание */
+color: #FFFFFF;
+margin: 10px; /*отступ*/
+width: 100%; /* ширина*/
+height: 10px; /*высота*/
+}
+
+#vet{
+padding-left: 10%; /* Поле слева */
+padding-right: 10%; /* Поле справа */
+margin: 10px; /*отступ*/
+width: 100%; /* ширина*/
+height: 0px; /*высота*/
+}
+
+#вкладки{
+	margin: 75px; /*отступ*/
+}
+
+/*основание*/
+#content {
+color: #FFFFFF;
+position: relative; /*позиционирования элемента относительно окна браузера*/
+text-align: center; /*выравнивание текста*/
+width: 95%; /*ширина*/
+margin: 75px; /*величину отступа от каждого края элемента*/
+font-family: Arial, sans-serif; /*семейство шрифта*/
+font-size: 15px; /*размер шрифта элемента*/
+padding-left: 10%; /* Поле слева */
+padding-right: 10%; /* Поле слева */
+}
+
+/*подвал*/ 
+#footer {
+width: 100%; /*ширина*/
+color: #FFFFFF;
+line-height: 100%;
+height: 100px; /*высота*/
+}
+
+
